@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "NoCosmeticLimit": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GDWEAVE_CONSOLE": "1",
+        "GDWEAVE_DEBUG": "1"
+      }
+    }
+  }
+}
