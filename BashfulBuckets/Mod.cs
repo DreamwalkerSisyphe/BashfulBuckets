@@ -53,6 +53,7 @@ public class ScriptMod : IScriptMod
             else if (hasFishWaiter.Check(token))
             {
                 //Return new line
+                yield return token;
                 yield return new Token(TokenType.Newline, 1);
 
                 //Add bucket back to interactable group
